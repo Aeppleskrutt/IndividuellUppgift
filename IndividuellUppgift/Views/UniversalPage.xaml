@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IndividuellUppgift.Views.UniversalPage"
+             Title="UniversalPage"
+             >
+             
+    <ScrollView>
+    <VerticalStackLayout>
+        
+            <Grid Padding="50"
+              RowSpacing="20"
+              RowDefinitions="Auto, *, *, *, *, *,*,*,*,*"
+              ColumnDefinitions="10, 200,10, 200,10,200,10,200,225,225"
+              ColumnSpacing="20">
+                <Label
+                Grid.Column="1"
+                
+                Text="Universal Speedups"
+                    />
+                <Label
+                    Grid.Column="3"
+                    Text="Training Speedups"/>
+                <Label
+                    Grid.Column="5"
+                    Text="Research Speedups"/>
+                <Label Grid.Column="7"
+                 Text="Healing Speedups"/>
+                <!--Universal Speedups-->
+                <Image 
+                Grid.Row="1"
+                x:Name="oneMImage" 
+                Source="oneminute.png" 
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                ></Image>
+            <Entry
+                Grid.Row="1"
+                Grid.Column="1"
+                x:Name="oneMinute"
+                Text="0"
+                Placeholder="How many speedups?"
+                ></Entry>
+            <Image
+                Grid.Row="2"
+                x:Name="fiveMImage"
+                Source="fiveminute.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+            <Entry
+                Grid.Row="2"
+                Grid.Column="1"
+                x:Name="fiveMinute"
+                Text="0"
+                Placeholder="How many speedups"/>
+            <Image
+                Grid.Row="3"
+                x:Name="tenMImage"
+                Source="tenminutes.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+            <Entry
+                Grid.Row="3"
+                Grid.Column="1"
+                x:Name="tenMinute"
+                Text="0"
+                Placeholder="How many speedups"/>
+            <Image
+                Grid.Row="4"
+                x:Name="fifteenMImage"
+                Source="fifteenminute.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+            <Entry
+                Grid.Row="4"
+                Grid.Column="1"
+                x:Name="fifteenMinute"
+                Text="0"
+                Placeholder="How many speedups"/>
+            <Image
+                Grid.Row="5"
+                x:Name="thirtyMImage"
+                Source="thirtyminute.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                    <Entry
+                Grid.Row="5"
+                Grid.Column="1"
+                x:Name="thirtyMinute"
+                        Text="0"
+                Placeholder="How many speedups"/>
+            <Image
+            Grid.Row="6"
+            x:Name="sixtyMImage"
+            Source="sixtyminute.png"
+            Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                    <Entry
+            Grid.Row="6"
+            Grid.Column="1"
+            x:Name="sixtyMinute"
+                        Text="0"
+            Placeholder="How many speedups"/>
+            <Image
+                Grid.Row="7"
+                x:Name="threeHImage"
+                Source="threehour.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                        <Entry
+                Grid.Row="7"
+                Grid.Column="1"
+                x:Name="threeHour"
+                            Text="0"
+                Placeholder="How many speedups"/>
+            <Image
+                Grid.Row="8"
+                x:Name="eightHImage"
+                Source="eighthour.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                        <Entry
+                Grid.Row="8"
+                Grid.Column="1"
+                x:Name="eightHour"
+                            Text="0"
+                Placeholder="How many speedups"/>
+
+                <Image
+                    Grid.Row="9"
+                    x:Name="twentyfourHImage"
+                    Source="twentyfourhour.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="9"
+                    Grid.Column="1"
+                    x:Name="twentyfourHour"
+                    Text="0"
+                 />
+              <!--Training Speedups-->  
+                <Image 
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    
+                    x:Name="oneMImage2" 
+                    Source="oneminutet.jpg" 
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                    ></Image>
+                <Entry
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    x:Name="oneMinute2"
+                    Text="0"
+                    Placeholder="How many speedups?"
+                    
+                    ></Entry>
+                <Image
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    x:Name="fiveMImage2"
+                    Source="fiveminutet.jpg"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                    />
+                <Entry
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    x:Name="fiveMinute2"
+                    Text="0"
+                    Placeholder="How many speedups"
+                    />
+                <Image
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    x:Name="tenMImage2"
+                    Source="tenminutet.jpg"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    x:Name="tenMinute2"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                <Image
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    x:Name="fifteenMImage2"
+                    Source="fifteenminutet.jpg"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="4"
+                    Grid.Column="3"
+                    x:Name="fifteenMinute2"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                <Image
+                    Grid.Row="5"
+                    Grid.Column="2"
+                    x:Name="thirtyMImage2"
+                    Source="thirtyminutet.jpg"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="5"
+                    Grid.Column="3"
+                    x:Name="thirtyMinute2"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                <Image
+                    Grid.Row="6"
+                    Grid.Column="2"
+                    x:Name="sixtyMImage2"
+                    Source="sixtyminutet.jpg"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="6"
+                    Grid.Column="3"
+                    x:Name="sixtyMinute2"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                <Image
+                    Grid.Row="7"
+                    Grid.Column="2"
+                    x:Name="threeHImage2"
+                    Source="threehourt.jpg"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="7"
+                    Grid.Column="3"
+                    x:Name="threeHour2"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                <Image
+                    Grid.Row="8"
+                    Grid.Column="2"
+                    x:Name="eightHImage2"
+                    Source="eighthourt.jpg"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="8"
+                    Grid.Column="3"
+                    x:Name="eightHour2"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+
+                <Image
+                    Grid.Row="9"
+                    Grid.Column="2"
+                    x:Name="twentyfourHImage2"
+                    Source="twentyfourhourt.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="9"
+                    Grid.Column="3"
+                    x:Name="twentyfourHour2"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                <!--Research Speedups-->
+                <Image 
+                    Grid.Row="1"
+                    Grid.Column="4"
+    
+                    x:Name="oneMImage3" 
+                    Source="oneminuter.png" 
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                    ></Image>
+                    <Entry
+                    Grid.Row="1"
+                    Grid.Column="5"
+                    x:Name="oneMinute3"
+                    Text="0"
+                    Placeholder="How many speedups?"
+    
+                    ></Entry>
+                                <Image
+                    Grid.Row="2"
+                    Grid.Column="4"
+                    x:Name="fiveMImage3"
+                    Source="fiveminuter.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                    />
+                   <Entry
+                    Grid.Row="2"
+                    Grid.Column="5"
+                    x:Name="fiveMinute3"
+                    Text="0"
+                    Placeholder="How many speedups"
+                    />
+                   <Image
+                    Grid.Row="3"
+                    Grid.Column="4"
+                    x:Name="tenMImage3"
+                    Source="tenminuter.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                   <Entry
+                    Grid.Row="3"
+                    Grid.Column="5"
+                    x:Name="tenMinute3"
+                       Text="0"
+                    Placeholder="How many speedups"/>
+                   <Image
+                    Grid.Row="4"
+                    Grid.Column="4"
+                    x:Name="fifteenMImage3"
+                    Source="fifteenminuter.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                    <Entry
+                    Grid.Row="4"
+                    Grid.Column="5"
+                    x:Name="fifteenMinute3"
+                        Text="0"
+                    Placeholder="How many speedups"/>
+                                <Image
+                    Grid.Row="5"
+                    Grid.Column="4"
+                    x:Name="thirtyMImage3"
+                    Source="thirtyminuter.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="5"
+                    Grid.Column="5"
+                    x:Name="thirtyMinute3"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+                                <Image
+                    Grid.Row="6"
+                    Grid.Column="4"
+                    x:Name="sixtyMImage3"
+                    Source="sixtyminuter.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="6"
+                    Grid.Column="5"
+                    x:Name="sixtyMinute3"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+                                <Image
+                    Grid.Row="7"
+                    Grid.Column="4"
+                    x:Name="threeHImage3"
+                    Source="threehourr.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="7"
+                    Grid.Column="5"
+                    x:Name="threeHour3"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+                                <Image
+                    Grid.Row="8"
+                    Grid.Column="4"
+                    x:Name="eightHImage3"
+                    Source="eighthourr.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="8"
+                    Grid.Column="5"
+                    x:Name="eightHour3"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+
+                                <Image
+                    Grid.Row="9"
+                    Grid.Column="4"
+                    x:Name="twentyfourHImage3"
+                    Source="twentyfourhourr.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="9"
+                    Grid.Column="5"
+                    x:Name="twentyfourHour3"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                <!--Healing Speedups-->
+                <Image 
+                    Grid.Row="1"
+                    Grid.Column="6"
+    
+                    x:Name="oneMImage4" 
+                    Source="oneminuteh.png" 
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                    ></Image>
+                                <Entry
+                    Grid.Row="1"
+                    Grid.Column="7"
+                    x:Name="oneMinute4"
+                    Text="0"
+                    Placeholder="How many speedups?"
+    
+                    ></Entry>
+                                <Image
+                    Grid.Row="2"
+                    Grid.Column="6"
+                    x:Name="fiveMImage4"
+                    Source="fiveminutesh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                    />
+                                <Entry
+                    Grid.Row="2"
+                    Grid.Column="7"
+                    x:Name="fiveMinute4"
+                                    Text="0"
+                    Placeholder="How many speedups"
+                    />
+                                <Image
+                    Grid.Row="3"
+                    Grid.Column="6"
+                    x:Name="tenMImage4"
+                    Source="tenminutesh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="3"
+                    Grid.Column="7"
+                    x:Name="tenMinute4"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+                                <Image
+                    Grid.Row="4"
+                    Grid.Column="6"
+                    x:Name="fifteenMImage4"
+                    Source="fifteenminutesh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="4"
+                    Grid.Column="7"
+                    x:Name="fifteenMinute4"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+                                <Image
+                    Grid.Row="5"
+                    Grid.Column="6"
+                    x:Name="thirtyMImage4"
+                    Source="thirtyminutesh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="5"
+                    Grid.Column="7"
+                    x:Name="thirtyMinute4"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+                                <Image
+                    Grid.Row="6"
+                    Grid.Column="6"
+                    x:Name="sixtyMImage4"
+                    Source="sixtyminutesh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                                <Entry
+                    Grid.Row="6"
+                    Grid.Column="7"
+                    x:Name="sixtyMinute4"
+                                    Text="0"
+                    Placeholder="How many speedups"/>
+                    <Image
+                    Grid.Row="7"
+                    Grid.Column="6"
+                    x:Name="threeHImage4"
+                    Source="threehoursh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                    <Entry
+                    Grid.Row="7"
+                    Grid.Column="7"
+                    x:Name="threeHour4"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+                    <Image
+                    Grid.Row="8"
+                    Grid.Column="6"
+                    x:Name="eightHImage4"
+                    Source="eighthoursh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                    <Entry
+                    Grid.Row="8"
+                    Grid.Column="7"
+                    x:Name="eightHour4"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+
+                    <Image
+                    Grid.Row="9"
+                    Grid.Column="6"
+                    x:Name="twentyfourHImage4"
+                    Source="twentyfourhourh.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                    <Entry
+                    Grid.Row="9"
+                    Grid.Column="7"
+                    x:Name="twentyfourHour4"
+                    Text="0"
+                    Placeholder="How many speedups"/>
+
+
+                <!--Universal + Research-->
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="8"
+                    x:Name="UniAndRes"
+                    Text="">
+                </Label>
+                <!--Universal + Training-->
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="8"
+                    x:Name="UniAndTrain"
+                    Text=""></Label>
+                <!--Universal + Healing-->
+                <Label
+                    Grid.Row="3"
+                    Grid.Column="8"
+                    x:Name="UniAndHeal"
+                    Text=""></Label>
+                <!--Universal Only-->
+                <Label
+                    Grid.Row="4"
+                    Grid.Column="8"
+                    x:Name="Universal"
+                    Text=""></Label>
+                <!--Healing Only-->
+                <Label
+                    Grid.Row="5"
+                    Grid.Column="8"
+                    x:Name="Healing"
+                    Text=""></Label>
+                <!--Training Only-->
+                <Label
+                    Grid.Row="6"
+                    Grid.Column="8"
+                    x:Name="Training"
+                    Text=""></Label>
+                <!--Research Only-->
+                <Label
+                    Grid.Row="7"
+                    Grid.Column="8"
+                    x:Name="Research"
+                    Text=""></Label>
+                <Button
+                    Grid.Row="8"
+                    Grid.Column="9"
+                    Text="Home"
+                    Clicked="OnHomeClicked"/>
+                <Button
+                    Grid.Row="9"
+                    Grid.Column="9"
+                    Text="Reset"
+                    Clicked="OnResetClicked"/>
+                <Button
+                    Grid.Row="8"
+                    Grid.Column="8"
+                    x:Name="DataBaseButton"
+                    Text="Get from database"
+                    Clicked="OnGetClicked"/>
+                <Button
+                    Grid.Row="9"
+                    Grid.Column="8"
+                    Text="Save Changes"
+                    Clicked="OnSaveClicked"/>
+            </Grid>
+           
+
+        
+
+        
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

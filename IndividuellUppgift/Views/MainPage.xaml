@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IndividuellUppgift.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            
+            Padding="30,0"
+            Spacing="25">
+            <Button
+                Text="Speedups Inventory"
+                Clicked="OnUniversalClicked"
+                TextColor="Black"
+                />
+            <Button
+                Text="Resource Inventory"
+                Clicked="OnResourceClicked"
+                TextColor="Black"/>
+            
+
+            <Label x:Name="cityLabel" Text="City will be displayed here" />
+            <Label x:Name="temperatureLabel" Text="Temperature will be displayed here" />
+            <Label Text="What city do you live in?" />
+            <Entry x:Name="weatherEntry" Placeholder="Enter city" TextChanged="OnTextChangedCity" />
+            <Button Text="Get Weather" Clicked="OnClickedGetWeather" TextColor="Black"/>
+
+            <Label
+                x:Name="ColdOrWarm"
+                Text=""/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

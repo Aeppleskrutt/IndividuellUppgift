@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IndividuellUppgift.Views.ResourcePage"
+             Title="Resources"
+             >
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Grid Padding="50"
+          RowSpacing="20"
+          RowDefinitions="Auto, *, *, *, *, *,*,*"
+          ColumnDefinitions="10, 200,10, 200,10,200,10,200,225,225"
+          ColumnSpacing="20">
+                <Label
+            Grid.Column="1"
+            
+            Text="Food"
+                />
+                <Label
+                Grid.Column="3"
+                Text="Wood"/>
+                <Label
+                Grid.Column="5"
+                Text="Stone"/>
+                <Label Grid.Column="7"
+             Text="Gold"/>
+                <!--Food-->
+                <Image 
+            Grid.Row="1"
+            x:Name="food1KImage" 
+            Source="onekfood.png" 
+            Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+            ></Image>
+                <Entry
+            Grid.Row="1"
+            Grid.Column="1"
+            x:Name="oneKFood"
+            Text="0"
+            Placeholder="How many tokens?"
+            ></Entry>
+                <Image
+            Grid.Row="2"
+            x:Name="food10KImage"
+            Source="tenkfood.png"
+            Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+            Grid.Row="2"
+            Grid.Column="1"
+            x:Name="tenKFood"
+            Text="0"
+            Placeholder="How many tokens"/>
+                <Image
+            Grid.Row="3"
+            x:Name="food50KImage"
+            Source="fiftykfood.png"
+            Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+            Grid.Row="3"
+            Grid.Column="1"
+            x:Name="fiftyKFood"
+            Text="0"
+            Placeholder="How many tokens"/>
+                <Image
+            Grid.Row="4"
+            x:Name="food150KImage"
+            Source="onehundredfiftykfood.png"
+            Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+            Grid.Row="4"
+            Grid.Column="1"
+            x:Name="onehundredfiftyKFood"
+            Text="0"
+            Placeholder="How many tokens"/>
+                <Image
+            Grid.Row="5"
+            x:Name="food500KImage"
+            Source="fivehundredkfood.png"
+            Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+            Grid.Row="5"
+            Grid.Column="1"
+            x:Name="fivehundredKFood"
+                    Text="0"
+            Placeholder="How many tokens"/>
+                <Image
+        Grid.Row="6"
+        x:Name="food150KKImage"
+        Source="oneandahalfmillionfood.png"
+        Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+        Grid.Row="6"
+        Grid.Column="1"
+        x:Name="oneandahalfmillionFood"
+                    Text="0"
+        Placeholder="How many tokens"/>
+                <Image
+            Grid.Row="7"
+            x:Name="food500KKImage"
+            Source="fivemillionfood.png"
+            Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+            Grid.Row="7"
+            Grid.Column="1"
+            x:Name="fiveMillionFood"
+                        Text="0"
+            Placeholder="How many tokens"/>
+
+             <!--Wood-->
+             <Image 
+                Grid.Row="1"
+                Grid.Column="2"
+                x:Name="wood1KImage" 
+                Source="onekwood.png" 
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+             ></Image>
+                <Entry
+                Grid.Row="1"
+                Grid.Column="3"
+                x:Name="oneKWood"
+                Text="0"
+                Placeholder="How many tokens?"
+                ></Entry>
+                            <Image
+                Grid.Row="2"
+                Grid.Column="2"                
+                x:Name="wood10KImage"
+                Source="tenkwood.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                            <Entry
+                Grid.Row="2"
+                Grid.Column="3"
+                x:Name="tenKWood"
+                Text="0"
+                Placeholder="How many tokens"/>
+               <Image
+                Grid.Row="3"
+                Grid.Column="2"
+                x:Name="wood50KImage"
+                Source="fiftykwood.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+               <Entry
+                Grid.Row="3"
+                Grid.Column="3"
+                x:Name="fiftyKWood"
+                Text="0"
+                Placeholder="How many tokens"/>
+               <Image
+                Grid.Row="4"
+                Grid.Column="2"                
+                x:Name="wood150KImage"
+                Source="onehundredfiftykwood.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                Grid.Row="4"
+                Grid.Column="3"
+                x:Name="onehundredfiftyKWood"
+                Text="0"
+                Placeholder="How many tokens"/>
+               <Image
+                Grid.Row="5"
+                Grid.Column="2"
+                x:Name="wood500KImage"
+                Source="fivehundredkwood.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+               <Entry
+                Grid.Row="5"
+                Grid.Column="3"
+                x:Name="fivehundredKWood"
+                Text="0"
+                Placeholder="How many tokens"/>
+                <Image
+                 Grid.Row="6"
+                 Grid.Column="2"
+                 x:Name="wood150KKImage"
+                 Source="oneandahalfmillionwood.png"
+                 Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                 Grid.Row="6"
+                 Grid.Column="3"
+                 x:Name="oneandahalfmillionWood"
+                 Text="0"
+                 Placeholder="How many tokens"/>
+                <Image
+                Grid.Row="7"
+                Grid.Column="2"    
+                x:Name="wood500KKImage"
+                Source="fivemillionwood.png"
+                Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+               <Entry
+                Grid.Row="7"
+                Grid.Column="3"
+                x:Name="fiveMillionWood"
+                Text="0"
+                Placeholder="How many tokens"/>
+
+                <!--Stone-->
+                <Image 
+                    Grid.Row="1"
+                    Grid.Column="4"
+                   x:Name="stone750Image" 
+                   Source="onekstone.png" 
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                   ></Image>
+                  <Entry
+                   Grid.Row="1"
+                   Grid.Column="5"
+                   x:Name="oneKStone"
+                   Text="0"
+                   Placeholder="How many tokens?"
+                   ></Entry>
+                  <Image
+                   Grid.Row="2"
+                   Grid.Column="4"  
+                   x:Name="stone10KImage"
+                   Source="tenkstone.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                  <Entry
+                   Grid.Row="2"
+                   Grid.Column="5"
+                   x:Name="tenKStone"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                  <Image
+                   Grid.Row="3"
+                   Grid.Column="4"
+                   x:Name="stone50KImage"
+                   Source="fiftykstone.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                  <Entry
+                   Grid.Row="3"
+                   Grid.Column="5"
+                   x:Name="fiftyKStone"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                  <Image
+                   Grid.Row="4"
+                      Grid.Column="4"
+                   x:Name="stone150KImage"
+                   Source="onehundredfiftykstone.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                  <Entry
+                   Grid.Row="4"
+                   Grid.Column="5"
+                   x:Name="onehundredfiftyKStone"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                  <Image
+                   Grid.Row="5"
+                   Grid.Column="4"
+                   x:Name="stone500KImage"
+                   Source="fivehundredkstone.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                  <Entry
+                   Grid.Row="5"
+                   Grid.Column="5"
+                   x:Name="fivehundredKStone"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                  <Image
+                    Grid.Row="6"
+                    Grid.Column="4"
+                    x:Name="stone150KKImage"
+                    Source="oneandahalfmillionstone.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                  <Entry
+                    Grid.Row="6"
+                    Grid.Column="5"
+                    x:Name="oneandahalfmillionStone"
+                    Text="0"
+                    Placeholder="How many tokens"/>
+                  <Image
+                   Grid.Row="7"
+                   Grid.Column="4"
+                   x:Name="stone500KKImage"
+                   Source="fivemillionstone.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                  <Entry
+                   Grid.Row="7"
+                   Grid.Column="5"
+                   x:Name="fiveMillionStone"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+
+
+                <!--Gold-->
+                <Image 
+                    Grid.Row="1"
+                    Grid.Column="6"
+                   x:Name="gold500Image" 
+                   Source="onekgold.png" 
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"
+                   ></Image>
+                <Entry
+                   Grid.Row="1"
+                   Grid.Column="7"
+                   x:Name="oneKGold"
+                   Text="0"
+                   Placeholder="How many tokens?"
+                   ></Entry>
+                <Image
+                   Grid.Row="2"
+                   Grid.Column="6"  
+                   x:Name="gold10KImage"
+                   Source="tenkgold.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                   Grid.Row="2"
+                   Grid.Column="7"
+                   x:Name="tenKGold"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                <Image
+                   Grid.Row="3"
+                   Grid.Column="6"
+                   x:Name="gold50KImage"
+                   Source="fiftykgold.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                   Grid.Row="3"
+                   Grid.Column="7"
+                   x:Name="fiftyKGold"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                <Image
+                   Grid.Row="4"
+                      Grid.Column="6"
+                   x:Name="gold150KImage"
+                   Source="onehundredfiftykgold.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                   Grid.Row="4"
+                   Grid.Column="7"
+                   x:Name="onehundredfiftyKGold"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                <Image
+                   Grid.Row="5"
+                   Grid.Column="6"
+                   x:Name="gold500KImage"
+                   Source="fivehundredkgold.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                   Grid.Row="5"
+                   Grid.Column="7"
+                   x:Name="fivehundredKGold"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+                <Image
+                    Grid.Row="6"
+                    Grid.Column="6"
+                    x:Name="gold150KKImage"
+                    Source="oneandahalfmilliongold.png"
+                    Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                    Grid.Row="6"
+                    Grid.Column="7"
+                    x:Name="oneandahalfmillionGold"
+                    Text="0"
+                    Placeholder="How many tokens"/>
+                <Image
+                   Grid.Row="7"
+                   Grid.Column="6"
+                   x:Name="gold500KKImage"
+                   Source="fivemilliongold.png"
+                   Aspect="AspectFit" WidthRequest="50" HeightRequest="50"/>
+                <Entry
+                   Grid.Row="7"
+                   Grid.Column="7"
+                   x:Name="fiveMillionGold"
+                   Text="0"
+                   Placeholder="How many tokens"/>
+
+
+                <!--Food-->
+                <Label
+                Grid.Row="1"
+                Grid.Column="8"
+                x:Name="TotalFood"
+                Text="">
+                </Label>
+                <!--Wood-->
+                <Label
+                Grid.Row="2"
+                Grid.Column="8"
+                x:Name="TotalWood"
+                Text=""></Label>
+                <!--Stone-->
+                <Label
+                Grid.Row="3"
+                Grid.Column="8"
+                x:Name="TotalStone"
+                Text=""></Label>
+                <!--Gold-->
+                <Label
+                Grid.Row="4"
+                Grid.Column="8"
+                x:Name="TotalGold"
+                Text=""></Label>
+               
+                <Button
+                Grid.Row="6"
+                Grid.Column="9"
+                Text="Home"
+                Clicked="OnHomeResourceClicked"/>
+                <Button
+                Grid.Row="7"
+                Grid.Column="9"
+                Text="Reset"
+                Clicked="OnResetResourceClicked"/>
+                <Button
+                Grid.Row="6"
+                Grid.Column="8"
+                x:Name="DataBaseButton"
+                Text="Get from database"
+                Clicked="OnGetClicked"/>
+                <Button
+                Grid.Row="7"
+                Grid.Column="8"
+                Text="Save Changes"
+                Clicked="OnSaveClicked"/>
+            </Grid>
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
